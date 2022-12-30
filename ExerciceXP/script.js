@@ -8,12 +8,19 @@ console.log(`Je mange du ${favoriteFood} à chaque ${favoriteMeal}`);
 const myWatchedSeries = ["black mirror", "money heist", "the big bang theory"];
 let myWatchedSeriesLength = myWatchedSeries.length;
 let myWatchedSeriesSentence = myWatchedSeries[0];
+/******************************************************
+Correcteur: Yannick GOUGUIA
+
+Revoir cet exercice, peut mieux faire, 
+Imagniez que vous ayez un tableau de 100 éléments, vous ne pourriez pas le faire le manuellement
+
+*****************************************************/
 console.log(
   `I watched 3 series : ${myWatchedSeries[0]}, ${myWatchedSeries[1]}, ${myWatchedSeries[2]}`
 );
 myWatchedSeries[myWatchedSeries.indexOf("the big bang theory")] = "friends";
-myWatchedSeries.push("Dexter");
-myWatchedSeries.splice(0, 0, "Breaking Bad");
+myWatchedSeries.push("Dexter");    // Un vrai connaisseur 😂😂😂
+myWatchedSeries.splice(0, 0, "Breaking Bad");    // Un vrai connaisseur 😂😂😂
 myWatchedSeries.splice(myWatchedSeries.indexOf("money heist"), 1);
 console.log(myWatchedSeries);
 
